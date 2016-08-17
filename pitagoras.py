@@ -1,3 +1,6 @@
-n= int(input("Ingresa un numero"))
+n= int(input("n: "))
 
-print (n)
+print ("El valor de n es: %d" %n)
+
+for i in n:
+    print(i)
