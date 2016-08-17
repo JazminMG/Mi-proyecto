@@ -1,6 +1,7 @@
 n= int(input("n: "))
+print ("\:t", end=" ")
 
-print ("El valor de n es: %d" %n)
+for i in range(n):
+    print("%d\t" % (i+1), end=" ")
 
-for i in n:
-    print(i)
+print ("")
